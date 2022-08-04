@@ -16,11 +16,13 @@ variable "cd_vdcadres" {
 
 variable "vcenter_name" {
     type        = string
+    default     = "list"
     description = "vCenter Name"
 }
 
 variable "org_name" {
     type        = string
+    default     = "list"
     description = "Organizasyon İsmi"
 }
 
@@ -33,6 +35,7 @@ variable "vdc_name" {
 
 variable "dvport_name" {
     type        = string
+    default     = "list"
     description = "vCenter VLAN Adı"
     
 }
