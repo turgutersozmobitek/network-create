@@ -35,7 +35,6 @@ variable "vdc_name" {
 
 variable "dvport_name" {
     type        = string
-    default     = "list"
     description = "vCenter VLAN Adı"
     
 }
