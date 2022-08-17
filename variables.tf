@@ -2,45 +2,45 @@
 
 variable "cd_username" {
     type        = string
-    description = "CloudDirector UserName"
+    description = "CloudDirector UserName*"
 }
 variable "cd_password" {
     type        = string
-    description = "CloudDirector Password"
+    description = "CloudDirector Password*"
 }
 
 variable "cd_vdcadres" {
     type        = string
-    description = "CloudDirector Adresi"
+    description = "CloudDirector Adresi*"
 }
 
 variable "vcenter_name" {
     type        = string
     default     = "list"
-    description = "vCenter Name"
+    description = "vCenter Name*"
 }
 
 variable "org_name" {
     type        = string
     default     = "list"
-    description = "Organizasyon İsmi"
+    description = "Organizasyon İsmi*"
 }
 
 
 variable "vdc_name" {
     type        = string
-    description = "VDC Name"
+    description = "VDC Name*"
 
 }
 
 variable "dvport_name" {
     type        = string
-    description = "vCenter VLAN Adı"
+    description = "vCenter VLAN Adı*"
     
 }
 variable "extnet_name" {
     type        = string
-    description = "External Network Name"
+    description = "External Network Name*"
 }
 variable "extnet_description" {
     type        = string
@@ -48,11 +48,11 @@ variable "extnet_description" {
 }
 variable "extnet_gw" {
     type        = string
-    description = "External Network Gateway"
+    description = "External Network Gateway*"
 }
 variable "extnet_mask" {
     type        = string
-    description = "External Network Mask"
+    description = "External Network Mask*"
 }
 variable "extnet_dns1" {
     type        = string
@@ -68,10 +68,10 @@ variable "extnet_suffix" {
 }
 variable "extnet_ip_pool_start" {
     type        = string
-    description = "External Network IP Pool Start Address"
+    description = "External Network IP Pool Start Address*"
 }
 variable "extnet_ip_pool_end" {
     type        = string
-    description = "External Network IP Pool End Address"
+    description = "External Network IP Pool End Address*"
 }
 
