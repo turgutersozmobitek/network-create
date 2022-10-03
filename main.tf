@@ -27,4 +27,5 @@ resource "vcd_external_network" "extnet" {
    vdc = var.vdc_name
    name = var.extnet_name
    external_network = var.extnet_name
+   depends_on = [vcd_external_network.extnet]
  }
